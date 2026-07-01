@@ -1,0 +1,14 @@
+a = int(input("En1: "))
+b = int(input("En2: "))
+op = input("+ - * / : ")
+
+if op == "+":
+    print(a + b)
+elif op == "-":
+    print(a - b)
+elif op == "*":
+    print(a * b)
+elif op == "/":
+    print(a / b)
+else:
+    print("Invalid operator")
