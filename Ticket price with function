@@ -1,0 +1,11 @@
+def ticket(age):
+    if age >= 5:
+        if age <= 12:
+            print("Price: 50")
+        else:
+            print("Price: 100")
+    else:
+        print("Free")
+
+age = int(input("Enter age: "))
+ticket(age)
