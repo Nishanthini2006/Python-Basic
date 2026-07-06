@@ -1,0 +1,9 @@
+students = {"Arun": 82, "Meena": 34, "Kavi": 76, "Ravi": 50}
+for name, mark in students.items():
+    if mark >= 35:
+        if mark >= 75:
+            print(name, "Distinction")
+        else:
+            print(name, "Pass")
+    else:
+        print(name, "Fail")
