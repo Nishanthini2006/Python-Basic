@@ -1,0 +1,9 @@
+marks = (45, 78, 33, 90, 60)
+for m in marks:
+    if m >= 35:
+        if m >= 75:
+            print(m, "Distinction")
+        else:
+            print(m, "Pass")
+    else:
+        print(m, "Fail")
