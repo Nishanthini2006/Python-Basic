@@ -1,0 +1,9 @@
+nums = [5, 12, 7, 20, 3]
+for n in nums:
+    if n > 10:
+        if n % 2 == 0:
+            print(n, "Big Even")
+        else:
+            print(n, "Big Odd")
+    else:
+        print(n, "Small")
