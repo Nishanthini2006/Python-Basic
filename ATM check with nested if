@@ -1,0 +1,10 @@
+balance = 5000
+amount = int(input("Enter amount: "))
+if amount > 0:
+    if amount <= balance:
+        print("Withdraw Success")
+        print("Balance:", balance - amount)
+    else:
+        print("Insufficient Balance")
+else:
+    print("Invalid Amount")
